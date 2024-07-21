@@ -2,7 +2,7 @@
 title: hyeran's page #Your awesome title
 email: hran1216@khu.ac.kr #youremail@domain.com
 description: > # this means to ignore newlines until "baseurl"
-  helo
+  hello
 
 baseurl: # the subpath of the site
 url: https://hyeran1216.github.io/ # the base hostname & protocol for your site
@@ -18,10 +18,10 @@ cusdis:
     app_id: #your cusdis app_id
 
 user:
-  name: Catbook
+  name: hyeran
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
-  job: a category-centric theme
+  job: student
   aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:

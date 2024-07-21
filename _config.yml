@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl"
   helo
 
 baseurl: # the subpath of the site
-url: http://starry99.github.io/catbook # the base hostname & protocol for your site
+url: https://hyeran1216.github.io/ # the base hostname & protocol for your site
 
 permalink: /:year-:month/:title
 timezone:

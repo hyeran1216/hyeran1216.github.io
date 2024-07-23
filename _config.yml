@@ -19,7 +19,7 @@ cusdis:
 
 user:
   name: hyeran
-  pic: /assets/img/cat.jpg
+  pic: /assets/img/computer_dog.jpg
   picAlt: "catbook"
   job: student
   aboutme: true # comment this out if you don't need the 'about' page.

@@ -2,7 +2,7 @@
 layout: post
 title:  "심화세션 - NLP.Attention"
 date:   2024-11-05 20:00 +09:00
-categories: KHUDA
+categories: AI
 ---
 
 # Lecture Recap

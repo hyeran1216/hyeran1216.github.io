@@ -5,6 +5,7 @@ date:   2025-02-10 23:00 +09:00
 categories: FE
 ---
 > 해당 내용은 노마드 코더의 React Native 강의를 보고 정리한 내용입니다.
+https://nomadcoders.co/react-native-for-beginners/lobby
 
 ## 목표
 

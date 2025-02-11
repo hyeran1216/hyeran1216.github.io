@@ -120,5 +120,5 @@ const finishEditing = async (key) => {
 )}
 ```
 
-- <img src="https://github.com/user-attachments/assets/f8fed4b3-fa6c-49ce-ad04-c747c37b69f8" width="20%" height="20%">
+- <img src="https://github.com/user-attachments/assets/f8fed4b3-fa6c-49ce-ad04-c747c37b69f8" width="50%">
 

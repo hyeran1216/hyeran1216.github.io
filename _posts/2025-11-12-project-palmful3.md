@@ -27,6 +27,7 @@ damping: 얼마나 흔들림 없이 정착할지 (높을수록 잔진동 없음)
 ---
 
 ### 간단한 랜덤 로테이션
+{% raw %}
 ```typescript
 const handleMouseEnter = () => {
 	const rotationList = [-2, -1, 1, 2];
@@ -46,19 +47,21 @@ return (
 			scale: 1.05,
 			boxShadow: "0.2em 0.2em 0.4em rgba(0, 0, 0, 0.15)",
 		}}
-		transition={`{
-			rotate: { type: "spring", bounce: 0.6 },
-			scale: { type: "tween", duration: 0.1 },
-		}`}
+	transition={{
+		rotate: { type: "spring", bounce: 0.6 },
+		scale: { type: "tween", duration: 0.1 },
+	}}
 	>
     ...
 )
 ```
+{% endraw %}
 호버 시에 랜덤 방향으로 기울어진다.
 
 ---
 
 ### 마우스 호버 틸트 효과
+{% raw %}
 ```typescript
 const rotateX = useSpring(0, springConfig);
 const rotateY = useSpring(0, springConfig);
@@ -90,6 +93,7 @@ return (
     ...
 )
 ```
+{% endraw %}
 - handleMouseMove: 카드 중심 대비 마우스 오프셋 비율을 회전 각도로 변환
 - handleMouseLeave: 마우스가 카드 영역을 벗어나면 회전 각도 초기화
 
@@ -98,6 +102,7 @@ return (
 ---
 
 ### 플립
+{% raw %}
 ```typescript
 const [isFlipped, setIsFlipped] = useState(false);
 const canFlip = Boolean(flowerCard.message && flowerCard.receiver);
@@ -144,6 +149,7 @@ return (
     ...
 )
 ```
+{% endraw %}
 - transform-style: preserve-3d로 입체 회전
 - 뒷면은 transform: "rotateY(180deg)"로 미리 180도 돌아간 상태로 렌더링해놔야 전체 카드가 180도 회전했을 때 바르게 정면을 보게 됨
 - backface-visibility: hidden으로 회전 시 뒷면(정면이 아닌 면)은 안 보이도록
@@ -153,6 +159,7 @@ return (
 ---
 
 ### 날아오기
+{% raw %}
 ```typescript
 <motion.div
 	initial={{
@@ -189,6 +196,7 @@ return (
 	<AnimatedFlowerCard ... />
 </motion.div>
 ```
+{% endraw %}
 - 처음에는 화면 바깥 (100vw, 100vh)에서 시작
 - 중심으로 날아오며 크기가 커지고(scale: 1), 720도 rotateY 회전하며 착지
 - 종료 시에는 작아지며 특정 위치로 빠지는 exit 애니메이션 실행

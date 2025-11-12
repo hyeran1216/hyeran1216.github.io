@@ -55,7 +55,7 @@ Swiper 안에 옵션을 구성할 수 있다.
 **구현**
 [CustomSlider.jsx](https://github.com/git1uv/client/blob/main/src/components/Calendar/CustomSlider.jsx)
 - `freeMode: true` : 터치(드래그)하여 슬라이드를 넘길 때, 특정한 위치에서 멈추지 않고 자유롭게 움직일 수 있도록
-- ``pagination={{ clickable: true }}`` : 하단에 어느 슬라이드에 있는지 점 표시, 클릭해서 넘어가기도 가능
+- `pagination={% raw %}{{ clickable: true }}{% endraw %}` : 하단에 어느 슬라이드에 있는지 점 표시, 클릭해서 넘어가기도 가능
 - 슬라이드의 배경을 챗봇 유형에 따라 동적으로 설정
 
 ---

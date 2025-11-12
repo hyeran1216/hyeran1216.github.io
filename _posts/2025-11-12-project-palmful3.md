@@ -46,10 +46,10 @@ return (
 			scale: 1.05,
 			boxShadow: "0.2em 0.2em 0.4em rgba(0, 0, 0, 0.15)",
 		}}
-		transition={{
+		transition={`{
 			rotate: { type: "spring", bounce: 0.6 },
 			scale: { type: "tween", duration: 0.1 },
-		}}
+		}`}
 	>
     ...
 )

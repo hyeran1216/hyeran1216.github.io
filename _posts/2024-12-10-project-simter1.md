@@ -31,7 +31,7 @@ Github: [git1uv/client](https://github.com/git1uv/client)
 
 디자인은 이렇다.
 
-<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/9d23b65f-f920-4c6d-b034-6af6ce17ffa3" />
+![Image](https://github.com/hyeran1216/hyeran1216.github.io/blob/b0f7c0d79c1bdb8d906951fe9e06106dd58a3bf9/_posts/images/simter-big.png?raw=true)
 
 - 내비게이션 버튼은 애셋으로 대체
 - 폰트 변경 및 주말/평일 디자인 똑같이
@@ -39,7 +39,7 @@ Github: [git1uv/client](https://github.com/git1uv/client)
 - 상담 내역 연동해서 오늘 내가 대화한 챗봇 종류에 따라 일 tile 색이 바뀐다.(빨강, 노랑, 초록)
 - 저장한 감정에 따라 이모지가 뜬다.
 
-<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/9c5271e1-ae5e-46ae-84ad-ccd81992b45f" />
+![Image](https://github.com/hyeran1216/hyeran1216.github.io/blob/b0f7c0d79c1bdb8d906951fe9e06106dd58a3bf9/_posts/images/simter-mini.png?raw=true)
 
 - 보고있는 현재 페이지 날짜는 노란색 배경
 - 오늘 날짜는 회색 보더

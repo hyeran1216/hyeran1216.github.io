@@ -7,7 +7,7 @@ categories: FE
 
 **SIMTER : 고민을 부담없이 털어놓는 나만의 공간 🏡**
 
-Github: https://github.com/git1uv/client
+Github: [git1uv/client](https://github.com/git1uv/client)
 
 2024.05 - 2024.10
 

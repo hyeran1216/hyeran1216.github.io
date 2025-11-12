@@ -7,7 +7,7 @@ categories: FE
 
 **SIMTER : 고민을 부담없이 털어놓는 나만의 공간 🏡**
 
-Github: https://github.com/git1uv/client
+Github: [git1uv/client](https://github.com/git1uv/client)
 
 2024.05 - 2024.10
 
@@ -53,7 +53,7 @@ Swiper 안에 옵션을 구성할 수 있다.
 - onSlideChange : 슬라이딩되었을 때 실행될 함수
 
 **구현**
-https://github.com/git1uv/client/blob/main/src/components/Calendar/CustomSlider.jsx
+[CustomSlider.jsx](https://github.com/git1uv/client/blob/main/src/components/Calendar/CustomSlider.jsx)
 - `freeMode: true` : 터치(드래그)하여 슬라이드를 넘길 때, 특정한 위치에서 멈추지 않고 자유롭게 움직일 수 있도록
 - `pagination={{ clickable: true }} ` : 하단에 어느 슬라이드에 있는지 점 표시, 클릭해서 넘어가기도 가능
 - 슬라이드의 배경을 챗봇 유형에 따라 동적으로 설정

@@ -7,7 +7,7 @@ categories: FE
 
 **SIMTER : 고민을 부담없이 털어놓는 나만의 공간 🏡**
 
-Github: https://github.com/git1uv/client
+Github: [git1uv/client](https://github.com/git1uv/client)
 
 2024.05 - 2024.10
 
@@ -26,8 +26,8 @@ Github: https://github.com/git1uv/client
 이제 디자인대로 달력을 커스텀할 차례, 근데 기본 css 파일을 들어가보니 코드가 너무 많고 비슷했다. now, active, hasActive 어느게 어떤 건지... 
 
 상위클래스를 파악 못하고 코딩해서 day 뷰에서 적용한 스타일이 month 뷰에 영향을 주기도 하고, 이래저래 삽질도 좀 했다.
-- 달력 큰 버전: https://github.com/git1uv/client/blob/main/src/components/Calendar/CustomCalendar.style.js
-- 달력 작은 버전: https://github.com/git1uv/client/blob/main/src/components/Calendar/MiniCalendar.style.js
+- 달력 큰 버전: [CustomCalendar.style.js](https://github.com/git1uv/client/blob/main/src/components/Calendar/CustomCalendar.style.js)
+- 달력 작은 버전: [MiniCalendar.style.js](https://github.com/git1uv/client/blob/main/src/components/Calendar/MiniCalendar.style.js)
 
 디자인은 이렇다.
 
@@ -54,7 +54,7 @@ Github: https://github.com/git1uv/client
 <br />
 
 참고링크는 다음과 같다
-- https://www.npmjs.com/package/react-calendar
-- https://velog.io/@pikadev1771/react-calendar-%EC%BB%A4%EC%8A%A4%ED%85%80%ED%95%98%EA%B8%B0-%EB%82%A0%EC%A7%9C-%EB%B3%80%ED%99%98-%ED%98%84%EC%9E%AC-%EB%8B%AC-%EA%B5%AC%ED%95%98%EA%B8%B0-%EC%BD%98%ED%85%90%EC%B8%A0-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0
-- https://velog.io/@hyerani/React-%EC%BA%98%EB%A6%B0%EB%8D%94-%EB%A7%8C%EB%93%A4%EA%B8%B0-react-calendar
-- https://ojspp41.tistory.com/42
+- [참고링크1](https://www.npmjs.com/package/react-calendar)
+- [참고링크2](https://velog.io/@pikadev1771/react-calendar-%EC%BB%A4%EC%8A%A4%ED%85%80%ED%95%98%EA%B8%B0-%EB%82%A0%EC%A7%9C-%EB%B3%80%ED%99%98-%ED%98%84%EC%9E%AC-%EB%8B%AC-%EA%B5%AC%ED%95%98%EA%B8%B0-%EC%BD%98%ED%85%90%EC%B8%A0-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0)
+- [참고링크3](https://velog.io/@hyerani/React-%EC%BA%98%EB%A6%B0%EB%8D%94-%EB%A7%8C%EB%93%A4%EA%B8%B0-react-calendar)
+- [참고링크4](https://ojspp41.tistory.com/42)

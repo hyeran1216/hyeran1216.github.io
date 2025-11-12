@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "project 회고록 - simter1"
+title:  "react-calendar 사용해서 달력 만들기"
 date:   2024-12-10 23:00 +09:00
 categories: FE
 ---

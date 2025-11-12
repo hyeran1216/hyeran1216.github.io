@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "project 회고록 - simter3"
+title:  "이미지 렌더링 개선"
 date:   2024-12-10 23:00 +09:00
 categories: FE
 ---

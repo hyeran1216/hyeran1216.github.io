@@ -22,6 +22,7 @@ const springConfig: SpringOptions = {
 };
 ```
 stiffness: 얼마나 빠르게 목표 값으로 수렴할지 (높을수록 빠름)
+
 damping: 얼마나 흔들림 없이 정착할지 (높을수록 잔진동 없음)
 
 ---
